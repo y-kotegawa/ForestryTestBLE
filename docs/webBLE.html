@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebBLE Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        #log {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            height: 200px;
+            overflow-y: auto;
+            background-color: #f9f9f9;
+        }
+        button {
+            margin: 5px 0;
+            padding: 10px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>WebBLE Example</h1>
+    <button id="connect">Connect</button>
+    <button id="disconnect">Disconnect</button>
+    <button id="send">Send Message</button>
+    <button id="notify">Start Notifications</button>
+
+    <div id="log"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
